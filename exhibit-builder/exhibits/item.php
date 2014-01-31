@@ -1,9 +1,4 @@
 <?php
-  // fcd1, 8/27/13: foolowing file is based on plugins/ExhibitBuilder/views/public/exhibits/item.php
-  // with customization to match behavior of cul-teneral's item.php from OMeka 1.5.3
-?>
-
-<?php
   echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),
 		  'bodyclass' => 'exhibits exhibit-item-show'));
 ?>
@@ -34,7 +29,6 @@
               echo '<h3>View item in context</h3>';
               echo '<p><a href="'.
                 html_escape(exhibit_builder_exhibit_uri($exhibit, $exhibit_page_containing_item)).
-		//                '">'.$exhibit->title.': '.$exhibit_page_containing_item->title.'</a></p>';
                 '">'.$link_title.'</a></p>';
             }
 
