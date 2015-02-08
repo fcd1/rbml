@@ -675,6 +675,7 @@ p.copyright-footer a {
 .exhibit-block.layout-gallery .gallery-showcase.left.with-right img.full,
 .exhibit-block.layout-gallery .gallery-showcase.right.with-left img.full {
   width: 100%;
+  margin-bottom: 1.5em;
 }
 
 .exhibit-block.layout-gallery .gallery.with-showcase.right.captions-center .exhibit-item.exhibit-gallery-item img,
