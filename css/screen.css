@@ -615,6 +615,12 @@ p.copyright-footer a {
   float: none;
 }
 
+.exhibit-block.layout-gallery .gallery.with-showcase.right .exhibit-item.exhibit-gallery-item {
+  display: inherit;
+  width: inherit;
+  margin-bottom: 2em;
+}
+
 .layout-gallery .exhibit-item.exhibit-gallery-item {
   width: 200px;
   padding: 10px;
