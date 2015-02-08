@@ -612,6 +612,7 @@ p.copyright-footer a {
   width: 48%;
   padding: 0px;
   margin-bottom: 2%;
+  float: none;
 }
 
 .layout-gallery .exhibit-item.exhibit-gallery-item {
