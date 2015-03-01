@@ -702,3 +702,13 @@ a.link-to-item-page {
 
 /* fcd1, Feb 2015: */
 /* END of Changes for move to Omeka 2.2.2 (and ExhibitBuilder 3.1.3) */
+
+/* fcd1, 03/01/15: medialement.js uses video tag. Need following for video on item page */
+#wrap #item-page-content #primary #itemfiles .item-file.application-octect-stream video {
+  float: right;
+}
+
+/* fcd1, 03/01/15: medialement.js uses video tag. Need following for video on item page */
+#item-page-content #itemfiles .item-file video {
+  float: right;
+}
