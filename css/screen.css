@@ -550,6 +550,7 @@ p.copyright-footer a {
   width: 200px;
   padding: 5px;
   margin-bottom: 2%;
+  margin-right: inherit;
 }
 
 .layout-file-text .exhibit-items.right.thumbnail {
