@@ -7,6 +7,9 @@
       <meta name="description" content="<?php echo $description; ?>">
     <?php endif; ?>
     <title><?php echo option('site_title'); echo isset($title) ? ' | ' . strip_formatting($title) : ''; ?></title>
+    <!-- fcd1, 07/16/15: add following fire_plugin_hook -->
+    <!-- Plugin Stuff -->
+    <?php fire_plugin_hook('public_head', array('view'=>$this)); ?>
     <!-- Stylesheets -->
     <?php
       queue_css_file('highslide','all',NULL,'/javascripts/highslide');
