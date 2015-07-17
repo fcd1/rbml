@@ -576,6 +576,7 @@ p.copyright-footer a {
   margin-top: 10px;
   width: 50%;
   float: left;
+  margin-right: inherit;
 }
 
 .layout-file-text .exhibit-items.right.fullsize {
@@ -711,4 +712,12 @@ a.link-to-item-page {
 
 .layout-gallery .gallery.left {
   margin-right: inherit;
+}
+
+.layout-file-text .exhibit-items {
+  max-width: inherit;
+}
+
+.layout-file-text .exhibit-items > *:last-child {
+  margin-bottom: 10px;
 }
