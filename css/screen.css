@@ -708,3 +708,7 @@ a.link-to-item-page {
 #item-page-content #itemfiles .item-file video {
   float: right;
 }
+
+.layout-gallery .gallery.left {
+  margin-right: inherit;
+}
