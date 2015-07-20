@@ -721,3 +721,23 @@ a.link-to-item-page {
 .layout-file-text .exhibit-items > *:last-child {
   margin-bottom: 10px;
 }
+
+.mejs-controls .mejs-button button {
+  background: transparent url(controls.png) no-repeat;
+}
+
+.mejs-controls .mejs-pause button {
+  background-position: 0 -16px;
+}
+
+.mejs-controls .mejs-mute button {
+  background-position: -16px -16px;
+}
+
+.mejs-controls .mejs-unmute button {
+  background-position: -16px 0;
+}
+
+.mejs-controls .mejs-fullscreen-button button {
+  background-position: -32px 0;
+}
